@@ -1,6 +1,6 @@
 <div align="center">
 
-## Especificacao-do-sistema-de-edicao-de-composicoes-feroviarias
+## Sistema-de-edicao-de-composicoes-feroviarias
 Uma empresa ferroviária de transporte de cargas possui um pátio central onde ficam estacionados os trens que estão em operação. Os vagões e locomotivas livres (que não estão engatados em nenhum trem) ficam estacionados em uma garagem de vagões e em uma garagem de locomotivas, respectivamente. A empresa necessita de um sistema que permita organizar os trens que irão atender as diferentes demandas de carga da empresa. Um trem é composto por uma ou mais locomotivas e por um ou mais vagões de carga. Na montagem de um trem as locomotivas e os vagões devem ser selecionados a partir dos que estão estacionados nas garagens. 
 
 # :hammer: Funcionalidades do projeto
