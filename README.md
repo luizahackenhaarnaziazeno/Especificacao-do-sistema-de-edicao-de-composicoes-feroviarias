@@ -29,7 +29,27 @@ Exibição dos resultados
 - Lista de locomotivas
 - Lista de vagões
 
-
+## Detalhamento da implementação: 
+ </div>
+<img src="https://github.com/user-attachments/assets/f7cc7188-10d5-4718-a295-cc3b566adcc2" min-width="400px" max-width="400px" width="200px" align="left" alt="lulu"/>
+ Com base nas informações apresentadas deve ser desenvolvido um sistema em linguagem de programação Java que permita montar e desmontar trens (composições) utilizando as locomotivas e vagões pertencentes a empresa (no início do programa deve-se inserir, automaticamente, um conjunto de vagões e locomotivas livres nas garagens). 
+ O sistema deve ter opções para:   
+ 
+1) Criar um trem
+- Esta operação exige que se indique o identificador do trem e a primeira locomotiva. A primeira locomotiva nunca pode ser removida. Para liberar esta locomotiva é necessário desfazer o trem.
+2) Editar um trem
+- Inicialmente deve-se indicar o identificador do trem a ser editado. A partir de então ficam liberadas as seguintes operações:
+- Inserir uma locomotiva (informar identificador) respeitando restrições
+- Inserir um vagão (informar identificador) respeitando restrições
+- Remover o último elemento do trem
+- Listar locomotivas livres
+- Listar vagões livres
+- Encerrar a edição do trem
+3) Listar todas os trens já criados (todos os trens que estão no pátio)
+4) Desfazer um trem
+- Deve-se indicar o identificador do trem. A partir de então todos seus vagões e locomotivas devem ser liberados e o trem excluído da lista de trens.
+5) Fim
+- Encerra o programa.
 
 # 🛠️ Rodando o projeto
 **Como Usar:**
@@ -37,7 +57,7 @@ Execute o programa em um ambiente Java.
 Forneça as informações solicitadas: número de apartamentos e o valor da diária normal.
 
 
-## Tecnologias Utilizadas:
+## Linguagem Utilizada:
 <div style="display: inline_block"><br>
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> 
 
